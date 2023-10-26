@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(90deg, rgba(255, 234, 0, 1) 0%, rgba(229, 255, 0, 1) 25%, rgba(238, 130, 238, 1) 72%, rgba(130, 195, 238, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contaner{
+    background: linear-gradient(140deg, rgba(8, 29, 90, 1) 1%, rgba(255, 94, 236, 1) 100%);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.line_btn{
+    display: flex;
+}
+ .line_btn button{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+    background: transparent;
+    font-size: 20px;
+    color: white;
+    box-shadow: -8px -8px 15px rgba(225, 225, 225, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+ .line_btn button:hover{
+    background-color: cyan;
+    transition: all 0.4s;
+    color: black;
+    font-weight: 600;
+}
+.line_btn button:focus{
+    background-color: blueviolet;
+}
+
+.contaner input{
+    border: 0;
+    outline: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.186);
+    border-radius: 10px;
+    color: rgba(255, 255, 0, 0.805);
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+    text-align: right;
+    flex: 1;
+    box-shadow: none;
+    font-size: 27px;
+    padding: 10px;
+
+}
+
+
+
+.btn_contaner .line_btn #equal{
+    width: 145px;
+}
